@@ -1,5 +1,5 @@
 import type { Route } from './+types/index'
-
+import AboutPreview from '../about/AboutPreview'
 export function meta({}: Route.MetaArgs) {
   return [
     { title: 'Friendly Dev' },
@@ -8,5 +8,5 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <>HomePage</>
+  return <AboutPreview />
 }
